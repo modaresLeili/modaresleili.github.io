@@ -13,56 +13,92 @@
 </head>
 
 <body>
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-xl bg-body-tertiary justify-content-between px-5">
+      <div class="container-fluid navbar-brand ms-5">
+        <div> <a class="nav-link active fs-5" aria-current="page" href="#"> تپسی<i class="bi bi-list-nested"></i></a>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 custom-nav fs-6 d-flex">
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">ثبت‌نام راننده خودرو</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">ثبت‌نام راننده موتور</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">وبلاگ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">پشتیبانی</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary" href="#">اپلیکیشن رانندگان</a>
+            </li>
+          </ul>
+          <button class="btn orange-btn rounded-5 text-light py-2 px-4 ms-5 " type="submit">دانلود تپسی</button>
+        </div>
+      </div>
+    </nav>
+    <div class="banner"><img src="images/header-banner-desktop.gif" alt="banner"></div>
+  </div>
 
-  <nav class="navbar navbar-expand-xl bg-body-tertiary justify-content-between px-5">
-    <div class="container-fluid brand ms-5">
-      <div> <a class="nav-link active fs-5" aria-current="page" href="#"> تپسی<i class="bi bi-list-nested"></i></a>
-      </div>
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 custom-nav fs-6 d-flex">
-          <li class="nav-item">
-            <a class="nav-link link-secondary" href="#">ثبت‌نام راننده خودرو</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary" href="#">ثبت‌نام راننده موتور</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary" href="#">وبلاگ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary" href="#">پشتیبانی</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary" href="#">اپلیکیشن رانندگان</a>
-          </li>
-        </ul>
-        <button class="btn orange-btn rounded-5 text-light py-2 px-4 ms-5 " type="submit">دانلود تپسی</button>
-      </div>
-    </div>
-  </nav>
-  <div class="banner"><img src="images/header-banner-desktop.gif" alt="#"></div>
   <div class="container-fluid">
     <div class="row SupperApp align-items-center px-3 px-md-5 py-5">
-      <div class="col-sm-12 col-md-6 order-first">
-        <p class="fs-1 fw-bold mb-2">
+      <div class="col-12 order-1 d-block d-md-none">
+        <p class="fs-1 fw-bold mb-3">
           با سوپر اپلیکیشن تپسی، <br>
-          زندگی به فرمان توست.</p>
-        <button class="btn black-btn mb-2 bg-black text-light rounded-5 px-2 py-4 me-3 order-md-1" type="submit">دانلود
-          اپلیکیشن
-          مسافر</button>
-        <button class="btn white-btn text-dark bg-light rounded-5 px-2 py-4 me-3 order-md-2" type="submit">نسخه وب
-          اپلیکیشن
-          (PWA)</button>
+          زندگی به فرمان توست. </p>
       </div>
-      <div class="col-sm-12 col-md-6 order-sm-first order-md-end">
+      <div class="col-12 col-md-6 order-2 order-md-1 ">
+        <p class="fs-1 fw-bold mb-3 d-sm-none d-md-block">
+          با سوپر اپلیکیشن تپسی، <br>
+          زندگی به فرمان توست.
+        </p>
+        <div class="d-flex flex-column flex-md-row">
+          <a href="#" class="btn black-btn bg-black text-light rounded-5 px-4 py-3 w-100 w-md-auto m-2">
+            دانلود اپلیکیشن مسافر
+          </a>
+          <a href="#" class="btn white-btn bg-light text-dark rounded-5 px-4 py-3 w-100 w-md-auto m-2">
+            نسخه وب اپلیکیشن (PWA)
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 order-1 order-md-2 text-center">
         <img src="images/hero.webp" alt="Hero Image" class="img-fluid rounded-5 w-75">
       </div>
     </div>
   </div>
 
+  <!-- ********************** -->
 
+  <!-- <div class="row DriverREgistration">
+    <div class="col-12 col-md-6">
+      <img src="images/section-driver.webp" alt="#" class=" rounded-5 w-50">
+    </div>
+    <div class="col-12 col-md-6">
+      <h2> در کمتر از 10 دقیقه ثبت‌نام کنید
+      </h2>
+      <div class="col-12 col-md-6 text-secondary">
+        <ul>
+          <li> کسب درآمد بالا تا 65 میلیون تومان </li>
+          <li> 5مرتبه تسویه آنی در روز </li>
+          <li> تخفیف لوازم مصرفی خودرو از تپسی گاراژ </li>
+          <li> استفاده از امکانات باشگاه سفیران تپسی </li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6 btn black-btn2 m-2 bg-black text-light rounded-5 px-2 py-4 me-3">
+        <a href="#">ثبت‌نام
+          راننده خودرو</a>
+      </div>
+      <div class="col-12 col-md-6 btn white-btn2 text-dark bg-light rounded-5 px-2 py-4 m-2 ">
+        <a href="#">دانلود برنامه
+          رانندگان</a>
+      </div>
+    </div>
 
-
+  </div>
+ -->
 
 
 
@@ -78,20 +114,7 @@
 </body>
 
 </html>
-<!-- 
 
--->
-
-<!-- 
-<div class="row SupperApp">
-    <div class="col">
-        <img src="images/hero.webp" alt="#">
-    </div>
-    <div class="col">text</div>
-    <div class="col">app</div>
-    <div class="col">web</div>
-</div>
--->
 <!-- 
 <div class="row Services">
     <div class="col">سرویس‌های‌تپسی</div>
