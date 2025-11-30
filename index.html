@@ -13,93 +13,121 @@
 </head>
 
 <body>
-  <div class="sticky-top">
-    <nav class="navbar navbar-expand-xl bg-body-tertiary justify-content-between px-5">
-      <div class="container-fluid navbar-brand ms-5">
-        <div> <a class="nav-link active fs-5" aria-current="page" href="#"> تپسی<i class="bi bi-list-nested"></i></a>
-        </div>
+  <!-- nav + banner -->
+  <div class="sticky-top ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-between px-5 ">
+      <div class="container-fluid ms-5 ">
+        <a class="navbar-brand fs-3" href="#">تپسی<i class="bi bi-list-nested"></i></a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 custom-nav fs-6 d-flex">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6 d-flex gap-4">
             <li class="nav-item">
-              <a class="nav-link link-secondary" href="#">ثبت‌نام راننده خودرو</a>
+              <a class="nav-link " aria-current="page" href="#">ثبت‌نام راننده خودرو</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-secondary" href="#">ثبت‌نام راننده موتور</a>
+              <a class="nav-link" href="#">ثبت‌نام راننده موتور</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-secondary" href="#">وبلاگ</a>
+              <a class="nav-link" href="#">وبلاگ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-secondary" href="#">پشتیبانی</a>
+              <a class="nav-link" href="#">پشتیبانی</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-secondary" href="#">اپلیکیشن رانندگان</a>
+              <a class="nav-link" href="#">اپلیکیشن رانندگان</a>
             </li>
           </ul>
-          <button class="btn orange-btn rounded-5 text-light py-2 px-4 ms-5 " type="submit">دانلود تپسی</button>
+          <a href="#" class="btn orange-btn fs-6 rounded-5 text-light py-2 px-4">
+            دانلود تپسی
+          </a>
         </div>
       </div>
     </nav>
     <div class="banner"><img src="images/header-banner-desktop.gif" alt="banner"></div>
   </div>
-
-  <div class="container-fluid">
+  <!-- supper app -->
+  <div class="container-fluid SupperApp">
     <div class="row SupperApp align-items-center px-3 px-md-5 py-5">
       <div class="col-12 order-1 d-block d-md-none">
-        <p class="fs-1 fw-bold mb-3">
+        <p class="fs-1 fw-bold mb-3 text-center">
           با سوپر اپلیکیشن تپسی، <br>
           زندگی به فرمان توست. </p>
       </div>
       <div class="col-12 col-md-6 order-2 order-md-1 ">
-        <p class="fs-1 fw-bold mb-3 d-sm-none d-md-block">
+        <p class="fs-1 fw-bold mb-3 d-sm-none d-md-block text-center">
           با سوپر اپلیکیشن تپسی، <br>
           زندگی به فرمان توست.
         </p>
         <div class="d-flex flex-column flex-md-row">
-          <a href="#" class="btn black-btn bg-black text-light rounded-5 px-4 py-3 w-100 w-md-auto m-2">
+          <a href="#" class="btn bg-black text-light rounded-5 px-4 py-3 w-100 w-md-auto m-2">
             دانلود اپلیکیشن مسافر
           </a>
-          <a href="#" class="btn white-btn bg-light text-dark rounded-5 px-4 py-3 w-100 w-md-auto m-2">
+          <a href="#"
+            class="btn bg-light text-dark rounded-5 px-4 py-3 w-100 w-md-auto m-2 border border-2 border-dark">
             نسخه وب اپلیکیشن (PWA)
           </a>
         </div>
       </div>
       <div class="col-12 col-md-6 order-1 order-md-2 text-center">
-        <img src="images/hero.webp" alt="Hero Image" class="img-fluid rounded-5 w-75">
+        <img src="images/hero.webp" alt="Image" class="img-fluid rounded-5 w-75">
       </div>
     </div>
   </div>
+  <!-- sevices -->
 
-  <!-- ********************** -->
 
-  <!-- <div class="row DriverREgistration">
-    <div class="col-12 col-md-6">
-      <img src="images/section-driver.webp" alt="#" class=" rounded-5 w-50">
-    </div>
-    <div class="col-12 col-md-6">
-      <h2> در کمتر از 10 دقیقه ثبت‌نام کنید
-      </h2>
-      <div class="col-12 col-md-6 text-secondary">
-        <ul>
-          <li> کسب درآمد بالا تا 65 میلیون تومان </li>
-          <li> 5مرتبه تسویه آنی در روز </li>
-          <li> تخفیف لوازم مصرفی خودرو از تپسی گاراژ </li>
-          <li> استفاده از امکانات باشگاه سفیران تپسی </li>
-        </ul>
-      </div>
-      <div class="col-12 col-md-6 btn black-btn2 m-2 bg-black text-light rounded-5 px-2 py-4 me-3">
-        <a href="#">ثبت‌نام
-          راننده خودرو</a>
-      </div>
-      <div class="col-12 col-md-6 btn white-btn2 text-dark bg-light rounded-5 px-2 py-4 m-2 ">
-        <a href="#">دانلود برنامه
-          رانندگان</a>
-      </div>
-    </div>
 
+
+
+
+  <div class="spacing ">
+    <br>
+    <br>
   </div>
- -->
+  <!-- driverRegistration -->
+  <div class="container-fluid">
+    <div class="row driverRegistration">
+      <div class="col-12 col-md-6 text-center">
+        <img src="images/section-driver.webp" alt="Image" class=" img-fluid rounded-5 w-75">
+      </div>
+      <div class="col-12 col-md-6 align-content-center">
+        <p class="fs-3 m-sm-5 m-md-1"> در کمتر از 10 دقیقه ثبت‌نام کنید
+        </p>
+        <!--       <div class="col-12 col-md-6 text-secondary"> -->
+        <div class="text-secondary m-5">
+          <ul>
+            <li> کسب درآمد بالا تا 65 میلیون تومان </li>
+            <li> 5مرتبه تسویه آنی در روز </li>
+            <li> تخفیف لوازم مصرفی خودرو از تپسی گاراژ </li>
+            <li> استفاده از امکانات باشگاه سفیران تپسی </li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column flex-lg-row ">
+          <a href="#" class="btn bg-black text-light rounded-5 px-4 py-3 w-75 w-lg-auto m-2 ">
+            ثبت‌نام
+            راننده خودرو
+          </a>
+          <a href="#" class="btn text-dark rounded-5 px-4 py-3 w-75 w-lg-auto m-2 ">
+            دانلود برنامه رانندگان <i class="bi bi-chevron-left"></i></a>
+        </div>
 
+      </div>
+
+    </div>
+  </div>
+
+  <div class="spacing ">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
 
 
 

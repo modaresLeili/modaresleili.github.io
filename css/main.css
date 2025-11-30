@@ -11,19 +11,17 @@
   font-display: swap;
 }
 
-.body {
+body {
   font-family: Vazirmatn, sans-serif;
+}
+
+.driverRegistration .btn {
+  max-width: 220px;
 }
 
 .orange-btn {
   background: linear-gradient(to right, #ff7633, #e84a18);
-  font-size: 14px;
-  width: 130px;
-}
-
-.custom-nav {
-  text-align: center;
-  gap: 20px;
+  max-width: 130px;
 }
 
 .banner img {
@@ -31,15 +29,8 @@
   height: auto;
 }
 
-.black-btn {
-  height: 68px;
-  width: 250px;
-}
-
-.white-btn {
-/*   height: 68px;
-  width: 250px; */
-  border: 2px solid black;
+.SupperApp {
+  background: linear-gradient(to right, #fff, #f6f8f8);
 }
 
 .SupperApp img {
