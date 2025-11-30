@@ -15,8 +15,9 @@ body {
   font-family: Vazirmatn, sans-serif;
 }
 
-.driverRegistration .btn {
-  max-width: 220px;
+.driverRegistration .btn,
+.panel .btn {
+  max-width: 232px;
 }
 
 .orange-btn {
