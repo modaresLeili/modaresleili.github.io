@@ -1,5 +1,16 @@
+/* @font-face {
+  font-family: 'DM Sans 9pt';
+  src: url('../fonts/DM-Sans-regular/DMSans9pt-Regular.eot');
+  src: url('DMSans9pt-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DM-Sans-regular/DMSans9pt-Regular.woff2') format('woff2'),
+    url('../fonts/DM-Sans-regular/DMSans9pt-Regular.woff') format('woff'),
+    url('../fonts/DM-Sans-regular/DMSans9pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
 @font-face {
-  font-family: 'Vazirmatn';
+  font-family: 'VazirmatnM';
   src: url('../fonts/Vazirmatn-Medium/Vazirmatn-Medium.eot');
   src: url('Vazirmatn-Medium.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Vazirmatn-Medium/Vazirmatn-Medium.woff2') format('woff2'),
@@ -11,8 +22,49 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'VazirmatnB';
+  src: url('../fonts/Vazirmatn-Bold/Vazirmatn-Bold.eot');
+  src: url('Vazirmatn-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazirmatn-Bold/Vazirmatn-Bold.woff2') format('woff2'),
+    url('../fonts/Vazirmatn-Bold/Vazirmatn-Bold.woff') format('woff'),
+    url('../fonts/Vazirmatn-Bold/Vazirmatn-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VazirmatnR';
+  src: url('../fonts/Vazirmatn-Regular/Vazirmatn-Regular.eot');
+  src: url('../fonts/Vazirmatn-Regular/Vazirmatn-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazirmatn-Regular/Vazirmatn-Regular.woff2') format('woff2'),
+    url('../fonts/Vazirmatn-Regular/Vazirmatn-Regular.woff') format('woff'),
+    url('../fonts/Vazirmatn-Regular/Vazirmatn-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'VazirmatnS';
+  src: url('Vazirmatn-SemiBold.eot');
+  src: url('Vazirmatn-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Vazirmatn-SemiBold.woff2') format('woff2'),
+    url('Vazirmatn-SemiBold.woff') format('woff'),
+    url('Vazirmatn-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+} */
+
 body {
-  font-family: Vazirmatn, sans-serif;
+  font-family: 'VazirmatnB';
+}
+
+.navbar,
+.services {
+  font-family: 'VazirmatnM';
 }
 
 .driverRegistration .btn,
@@ -37,3 +89,19 @@ body {
 .SupperApp img {
   box-shadow: 0px 0px 10px rgb(218, 218, 218);
 }
+
+.img1 {
+  max-width: 40%;
+  height: auto;
+}
+
+.img2 {
+  max-width: 70%;
+  height: auto;
+}
+
+.blog img {
+  max-width: 25%;
+  height: auto;
+}
+
