@@ -73,8 +73,8 @@ body {
 }
 
 .orange-btn {
-  background: linear-gradient(to right, #ff7633, #e84a18);
-  max-width: 130px;
+  background: linear-gradient(to right, #ff7633, #e93407);
+  max-width: 150px;
 }
 
 .banner img {
@@ -90,10 +90,14 @@ body {
   box-shadow: 0px 0px 10px rgb(218, 218, 218);
 }
 
+.carousel-item {
+  transition: none !important;
+}
+
 .img1 {
   max-width: 50%;
   min-width: 35%;
- /*  height: auto; */
+  height: auto;
 }
 
 .img2 {
@@ -105,3 +109,14 @@ body {
   max-width: 25%;
   height: auto;
 }
+
+.installApp {
+  background: linear-gradient(to left, #f4f1f0, #fef0e9);
+  margin: 50px 150px;
+}
+
+.installApp img {
+  max-width: 50%;
+}
+
+/* mquery for the install to remove the margin when it is small and add it when it is md to higher */
