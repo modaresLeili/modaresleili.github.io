@@ -36,6 +36,8 @@
 
 body {
   font-family: 'VazirmatnB';
+  /*   overflow-x: hidden;
+ */
 }
 
 .navbar,
@@ -129,6 +131,10 @@ body {
 .blog img {
   width: 100%;
 }
+/* 
+.footer {
+  height: 800px;
+} */
 
 @media (max-width: 768px) {
 
