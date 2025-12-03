@@ -1,16 +1,4 @@
 @font-face {
-  font-family: 'VazirmatnM';
-  src: url('../fonts/Vazirmatn-Medium/Vazirmatn-Medium.eot');
-  src: url('Vazirmatn-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Vazirmatn-Medium/Vazirmatn-Medium.woff2') format('woff2'),
-    url('../fonts/Vazirmatn-Medium/Vazirmatn-Medium.woff') format('woff'),
-    url('../fonts/Vazirmatn-Medium/Vazirmatn-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'VazirmatnB';
   src: url('../fonts/Vazirmatn-Bold/Vazirmatn-Bold.eot');
   src: url('Vazirmatn-Bold.eot?#iefix') format('embedded-opentype'),
@@ -36,8 +24,6 @@
 
 body {
   font-family: 'VazirmatnB';
-  /*   overflow-x: hidden;
- */
 }
 
 .navbar,
@@ -52,7 +38,29 @@ body {
 
 .orange-btn {
   background: linear-gradient(to right, #ff7633, #e93407);
-  /*   max-width: 150px; */
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.navbar .nav-link {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ff7633;
+}
+
+.black-btn {
+  transition: box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.black-btn:hover {
+  box-shadow: inset 0 0 0 1000px rgba(233, 229, 229, 0.15);
+  filter: brightness(110%);
 }
 
 .banner img {
@@ -100,7 +108,6 @@ body {
 .installApp {
   background: linear-gradient(to left, #f4f1f0, #fef0e9);
   margin: 50px 150px;
-
 }
 
 .installAppFont {
@@ -121,7 +128,6 @@ body {
 .blog {
   margin: 50px 150px;
   font-family: 'VazirmatnR';
-
 }
 
 .blog p {
@@ -131,10 +137,33 @@ body {
 .blog img {
   width: 100%;
 }
-/* 
-.footer {
-  height: 800px;
-} */
+
+.blog .post {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.blog .post:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.footer ul li,
+.footer a {
+  font-size: 13px;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.footer ul li:hover,
+.footer a:hover {
+  color: #ff7633;
+  cursor: pointer;
+}
 
 @media (max-width: 768px) {
 
