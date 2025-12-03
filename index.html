@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <!-- nav + banner -->
   <div class="sticky-top ">
     <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-between px-5 ">
@@ -23,7 +22,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6 d-flex gap-4">
+          <ul class="thisone navbar-nav mb-2 mb-lg-0 d-flex gap-3">
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#">ثبت‌نام راننده خودرو</a>
             </li>
@@ -40,7 +39,7 @@
               <a class="nav-link" href="#">اپلیکیشن رانندگان</a>
             </li>
           </ul>
-          <a href="#" class="btn orange-btn fs-6 rounded-5 text-light py-2 px-4">
+          <a href="#" class=" btn orange-btn fs-6 rounded-5 text-light py-2 px-4">
             دانلود تپسی
           </a>
         </div>
@@ -48,14 +47,9 @@
     </nav>
     <div class="banner"><img src="images/header-banner-desktop.gif" alt="banner"></div>
   </div>
-
   <!-- supper app -->
-  <div class="container-fluid SupperApp ">
-    <div class="spacing ">
-      <br>
-      <br>
-    </div>
-    <div class="row SupperApp align-items-center px-3 px-md-5 py-5">
+  <div class="container-fluid SupperApp  ">
+    <div class="row SupperApp px-3 px-md-5 py-5 min-vh-100 d-flex align-items-center justify-content-center">
       <div class="col-12 order-1 d-block d-md-none">
         <p class="fs-1 fw-bold mb-3 text-center">
           با سوپر اپلیکیشن تپسی، <br>
@@ -81,52 +75,44 @@
       </div>
     </div>
   </div>
-
   <!-- sevices -->
-  <h2 class="m-5">سرویس‌های تپسی</h2>
-
-
+  <h2 class="m-5 px-5">سرویس‌های تپسی</h2>
   <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-inner services">
-      <!-- classic -->
+      <!-- کلاسیک -->
       <div class="carousel-item active " data-bs-interval="10000">
-        <!--                 <img src="..." class="d-block w-100" alt="..."> -->
-
-
         <div class="row d-flex overflow-auto text-center mx-5 px-5">
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3">
-            <h6>کلاسیک</h6>
+            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3 active-icon">
+            <h6 class="active-icon">کلاسیک</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3">
-            <h6>باهمسفر</h6>
+            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">باهمسفر</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3">
-            <h6>ارسال بسته</h6>
+            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">ارسال بسته</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3">
-            <h6>تلفنی</h6>
+            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">تلفنی</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3">
-            <h6>پلاس</h6>
+            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">پلاس</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3">
-            <h6>بین‌شهری</h6>
+            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">بین‌شهری</h6>
           </div>
         </div>
-        <div class="spacing ">
-          <br>
-          <br>
-        </div>
+        <br>
+        <br>
         <div class="row justify-content-center align-items-center ">
-          <div class="col-12 col-md-6 order-2 order-md-1 ">
-            <h2 class="ms-5">تپسی کلاسیک</h2>
-            <p class="text-secondary m-5">
+          <div class="col-12 col-md-6 order-2 order-md-1 px-5">
+            <h2 class="ms-5 px-5">تپسی کلاسیک</h2>
+            <p class="ms-5 px-5">
               با سرویس تپسی کلاسیک، سریع، آسان و به‌صرفه به مقصد برسید.
               در این سرویس می‌توانید به دو یا چند مقصد سفر کنید.
             </p>
@@ -135,47 +121,41 @@
             <img src="images/illus-classic.webp" alt="classic" class="img-fluid img2">
           </div>
         </div>
-
-
       </div>
       <!-- با همسفر -->
-
       <div class="carousel-item" data-bs-interval="2000">
         <div class="row d-flex overflow-auto text-center mx-5 px-5">
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3">
-            <h6>کلاسیک</h6>
+            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">کلاسیک</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3">
-            <h6>باهمسفر</h6>
+            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3 active-icon">
+            <h6 class="active-icon">باهمسفر</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3">
-            <h6>ارسال بسته</h6>
+            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">ارسال بسته</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3">
-            <h6>تلفنی</h6>
+            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">تلفنی</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3">
-            <h6>پلاس</h6>
+            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">پلاس</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3">
-            <h6>بین‌شهری</h6>
+            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">بین‌شهری</h6>
           </div>
         </div>
-        <div class="spacing ">
-          <br>
-          <br>
-        </div>
-
+        <br>
+        <br>
         <div class="row justify-content-center align-items-center ">
           <div class="col-12 col-md-6 order-2 order-md-1 ">
-            <h2 class="ms-5">با همسفر </h2>
-            <p class="text-secondary m-5">
+            <h2 class="ms-5 px-5">با همسفر </h2>
+            <p class="ms-5 px-5">
               در سرویس باهمسفر تپسی، با یک مسافر دیگر هم مسیر می شوید. هزینه سفر شما با این سرویس ٪۳۵ به
               صرفه‌تر از
               سفر کلاسیک است. </p>
@@ -189,38 +169,36 @@
       <div class="carousel-item">
         <div class="row d-flex overflow-auto text-center mx-5 px-5">
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3">
-            <h6>کلاسیک</h6>
+            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">کلاسیک</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3">
-            <h6>باهمسفر</h6>
+            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">باهمسفر</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3">
-            <h6>ارسال بسته</h6>
+            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3 active-icon">
+            <h6 class="active-icon">ارسال بسته</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3">
-            <h6>تلفنی</h6>
+            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">تلفنی</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3">
-            <h6>پلاس</h6>
+            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">پلاس</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3">
-            <h6>بین‌شهری</h6>
+            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">بین‌شهری</h6>
           </div>
         </div>
-        <div class="spacing ">
-          <br>
-          <br>
-        </div>
+        <br>
+        <br>
         <div class="row justify-content-center align-items-center ">
           <div class="col-12 col-md-6 order-2 order-md-1 ">
-            <h2 class="ms-5">ارسال بسته</h2>
-            <p class="text-secondary m-5">
+            <h2 class="ms-5 px-5">ارسال بسته</h2>
+            <p class="ms-5 px-5">
               شما می‌توانید با استفاده از سرویس ارسال بسته تپسی مرسولات خود را با موتوپیک(بسته کوچک) یا
               اتوپیک (بسته
               بزرگ) ارسال کنید.
@@ -232,42 +210,39 @@
         </div>
       </div>
       <!-- تلفنی -->
-
       <div class="carousel-item active " data-bs-interval="10000">
         <div class="row d-flex overflow-auto text-center mx-5 px-5">
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3">
-            <h6>کلاسیک</h6>
+            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">کلاسیک</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3">
-            <h6>باهمسفر</h6>
+            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">باهمسفر</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3">
-            <h6>ارسال بسته</h6>
+            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">ارسال بسته</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3">
-            <h6>تلفنی</h6>
+            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3 active-icon">
+            <h6 class="active-icon">تلفنی</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3">
-            <h6>پلاس</h6>
+            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">پلاس</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3">
-            <h6>بین‌شهری</h6>
+            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">بین‌شهری</h6>
           </div>
         </div>
-        <div class="spacing ">
-          <br>
-          <br>
-        </div>
+        <br>
+        <br>
         <div class="row justify-content-center align-items-center ">
           <div class="col-12 col-md-6 order-2 order-md-1 ">
-            <h2 class="ms-5">تلفنی </h2>
-            <p class="text-secondary m-5">
+            <h2 class="ms-5 px-5">تلفنی </h2>
+            <p class="ms-5 px-5">
               سرویس تپسی تلفنی یا ۱۶۳۰، این امکان را به شما می‌دهد که بدون نیاز به اینترنت و اپلیکیشن،
               درخواست خودرو
               بدهید.کافیست با شماره ۱۶۳۰ تماس بگیرید.
@@ -277,45 +252,41 @@
             <img src="images/illus-tel.webp" alt="tel" class="img-fluid img2">
           </div>
         </div>
-
       </div>
       <!-- تپسی پلاس -->
-
       <div class="carousel-item" data-bs-interval="2000">
         <div class="row d-flex overflow-auto text-center mx-5 px-5">
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3">
-            <h6>کلاسیک</h6>
+            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">کلاسیک</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3">
-            <h6>باهمسفر</h6>
+            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">باهمسفر</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3">
-            <h6>ارسال بسته</h6>
+            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">ارسال بسته</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3">
-            <h6>تلفنی</h6>
+            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">تلفنی</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3">
-            <h6>پلاس</h6>
+            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3 active-icon">
+            <h6 class="active-icon">پلاس</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3">
-            <h6>بین‌شهری</h6>
+            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">بین‌شهری</h6>
           </div>
         </div>
-        <div class="spacing ">
-          <br>
-          <br>
-        </div>
+        <br>
+        <br>
         <div class="row justify-content-center align-items-center ">
           <div class="col-12 col-md-6 order-2 order-md-1 ">
-            <h2 class="ms-5">تپسی پلاس </h2>
-            <p class="text-secondary m-5">
+            <h2 class="ms-5 px-5">تپسی پلاس </h2>
+            <p class="ms-5 px-5">
               سرویس تپسی پلاس با ماشین‌های مدل بالاتر و کارکرد کمتر ارائه می‌شود. در این سرویس امکان تعیین
               چند مقصد و
               توقف در مسیر وجود دارد. </p>
@@ -324,45 +295,41 @@
             <img src="images/illus-plus.webp" alt="plus" class="img-fluid img2">
           </div>
         </div>
-
       </div>
       <!-- بین شهری -->
-
       <div class="carousel-item">
         <div class="row d-flex overflow-auto text-center mx-5 px-5">
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3">
-            <h6>کلاسیک</h6>
+            <img src="images/cc-classic.webp" alt="classic" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">کلاسیک</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3">
-            <h6>باهمسفر</h6>
+            <img src="images/cc-wait-and-share.webp" alt="waitAndShare" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">باهمسفر</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3">
-            <h6>ارسال بسته</h6>
+            <img src="images/cc-delivery.webp" alt="delivery" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">ارسال بسته</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3">
-            <h6>تلفنی</h6>
+            <img src="images/cc-tel.webp" alt="tel" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">تلفنی</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3">
-            <h6>پلاس</h6>
+            <img src="images/cc-plus.webp" alt="plus" class="img-fluid img1 mb-3 faded-icon">
+            <h6 class="faded-icon">پلاس</h6>
           </div>
           <div class="col-2 flex-shrink-0">
-            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3">
-            <h6>بین‌شهری</h6>
+            <img src="images/cc-intercity.webp" alt="intercity" class="img-fluid img1 mb-3 active-icon">
+            <h6 class="active-icon">بین‌شهری</h6>
           </div>
         </div>
-        <div class="spacing ">
-          <br>
-          <br>
-        </div>
+        <br>
+        <br>
         <div class="row justify-content-center align-items-center ">
           <div class="col-12 col-md-6 order-2 order-md-1 ">
-            <h2 class="ms-5">بین شهری </h2>
-            <p class="text-secondary m-5">
+            <h2 class="ms-5 px-5">بین شهری </h2>
+            <p class="ms-5 px-5">
               با تاکسی اینترنتی بین شهری تپسی می‌توانید با قیمت مناسب و امنیت بالا به شهرهای دور و نزدیک
               سفر کنید.
             </p>
@@ -371,7 +338,6 @@
             <img src="images/illus-intercity.webp" alt="intercity" class="img-fluid img2">
           </div>
         </div>
-
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -383,17 +349,10 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
   <br>
   <br>
   <br>
   <br>
-
-
-
-
-
-
   <!-- driverRegistration -->
   <div class="container-fluid">
     <div class="row driverRegistration">
@@ -413,30 +372,24 @@
         </div>
         <div class="d-flex flex-column flex-lg-row ">
           <a href="#" class="btn bg-black text-light rounded-5 px-4 py-3 w-75 w-lg-auto m-2 ">
-            ثبت‌نام
-            راننده خودرو
-          </a>
+            ثبت‌نام راننده خودرو </a>
           <a href="#" class="btn text-dark rounded-5 px-4 py-3 w-75 w-lg-auto m-2 ">
             دانلود برنامه رانندگان <i class="bi bi-chevron-left"></i></a>
         </div>
       </div>
     </div>
   </div>
-
   <br>
   <br>
   <br>
   <br>
-
   <!-- panel -->
   <div class="container-fluid ">
     <div class="row panel">
       <div class="col-12 col-md-6 align-content-center ps-5">
-        <p class="fs-3 m-md-5 m-md-1 mt-5"> خدمات ویژه کسب کارها
-        </p>
+        <p class="fs-3 m-md-5 m-md-1 mt-5"> خدمات ویژه کسب کارها </p>
         <div class="text-secondary m-md-3">
-          <p>شما می‌توانید از امکانات ویژه تپسی برای کسب وکارها مانند درخواست نامحدود خودرو و پیک به صورت همزمان و
-            ایجاد
+          <p>شما می‌توانید از امکانات ویژه تپسی برای کسب وکارها مانند درخواست نامحدود خودرو و پیک به صورت همزمان وایجاد
             کد تخفیف سازمانی استفاده کنید.</p>
         </div>
         <div class="d-flex flex-column flex-lg-row">
@@ -452,33 +405,62 @@
       </div>
     </div>
   </div>
-
   <br>
   <br>
   <br>
   <br>
-
   <!-- install apps -->
-
   <div class="container-fluid">
-    <div class="row d-flex justify-content-center align-content-center rounded-5 installApp ">
+    <div class="row justify-content-center align-content-center rounded-5 installApp pb-5 pb-lg-1">
 
-      <div class="col-12 col-md-6 m-auto px-5 order-2 order-md-1">
+      <div class="col-12 col-md-6 order-2 order-md-1 pt-5 ps-5">
         <h2>همین حالا تپسی رو نصب کن!</h2>
-        <p class="text-secondary">با نصب سوپر اپلیکیشن تپسی می‌توانید علاوه بر درخواست خودرو، از سرویس‌های ارسال بسته،
+        <p class="text-secondary installAppFont p-1">با نصب سوپر اپلیکیشن تپسی می‌توانید علاوه بر درخواست خودرو، از
+          سرویس‌های ارسال بسته،
           سفارش غذا، خرید،
-          سوپرمارکت و داروخانه نیز استفاده کنید.</ class="text-secondary">
+          سوپرمارکت و داروخانه نیز استفاده کنید.
+        <p / class="text-secondary">
 
         <div class="d-flex flex-column flex-lg-row">
-          <a href="#" class="btn orange-btn rounded-5 text-light px-1 py-3 w-50 w-lg-auto ">
+          <a href="#" class="btn orange-btn rounded-5 text-light px-1 py-3 m-1 w-50 w-lg-auto">
             اپلیکیشن تپسی
           </a>
-          <a href="#" class="btn bg-light text-dark rounded-5 px-1 py-3 w-50 w-lg-auto">
+          <a href="#" class="btn bg-light text-dark rounded-5 px-1 py-3 m-1 w-50 w-lg-auto">
             اپلیکیشن رانندگان <i class="bi bi-chevron-left"></i></a>
         </div>
       </div>
-      <div class="col-12 col-md-6 w-100 w-md-50 order-1 order-md-2">
-        <img src="images/section-install.webp" alt="image">
+      <div class="col-12 col-md-6 w-md-50 order-1 order-md-2">
+        <img src="images/section-install.webp" alt="image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- blog -->
+  <h2 class="title">تازه‌ترین وبلاگ‌های تپسی</h2>
+
+  <div class="container-fluid">
+    <div class="row blog ">
+      <div class="col-12 col-md-4 post">
+        <img src="images/blog1.webp" alt="blogimage" class="img-fluid rounded-4 my-3 text-center">
+        <h5>علائم خرابی صفحه کلاچ موتورسیکلت + هزینه تعویض</h5>
+        <p class="text-secondary mt-3">اگر موتورتان جان ندارد، بی‌دلیل گاز می‌خورد یا دنده‌ها سخت جا می‌روند، احتمالا
+          خرابی صفحه کلاچ یقه‌تان را...</p>
+      </div>
+      <div class="col-12 col-md-4 w-md-50 post">
+        <img src="images/blog2.webp" alt="blogimage" class="img-fluid rounded-4 my-3 text-center">
+        <h5>راهنمای خرید لاستیک موتورسیکلت</h5>
+        <p class="text-secondary mt-3 ">من سال‌هاست که هم موتورسوارم هم مدتی در کار فروش لاستیک بوده‌ام. از هوندا ۱۲۵ تا
+          باکسر ۱۵۰ و ...</p>
+      </div>
+      <div class="col-12 col-md-4 post">
+        <img src="images/blog3.webp " alt="blogimage" class="img-fluid rounded-4 my-3 text-center">
+        <h5>علت شاتون زدن موتورسیکلت</h5>
+        <p class="text-secondary mt-3">همترین قطعات متحرک موتورسیکلت است. یک میله فلزی که در تبدیل نیروی انفجار (انرژی
+          حرارتی) به حر...</p>
       </div>
     </div>
   </div>
@@ -486,30 +468,9 @@
 
 
 
-  <br>
-  <br>
-  <br>
-  <br>
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
-
-
-
-
-<!-- 
-<div class="row Blog">
-    <div class="col">تازه‌ترین‌های وبلاگ تپسی</div>
-    <div class="col">choose</div>
-    <div class="col">washing</div>
-    <div class="col">car setting</div>
-</div> 
--->
-<!-- 
-<div class="row Footer"> </div>
--->
