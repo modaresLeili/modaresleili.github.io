@@ -118,6 +118,8 @@ body {
 
 .blog {
   margin: 50px 150px;
+  font-family: 'VazirmatnR';
+
 }
 
 .blog p {
@@ -133,5 +135,9 @@ body {
   .installApp,
   .blog {
     margin: 0;
+  }
+
+  .title {
+    margin: 55px;
   }
 }
