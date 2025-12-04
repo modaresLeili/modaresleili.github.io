@@ -148,7 +148,8 @@ body {
   background-color: #fff;
 }
 
-.footer p {
+.footer p,
+.footer h6 {
   font-size: 12px;
 }
 
